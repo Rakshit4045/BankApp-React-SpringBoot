@@ -1,0 +1,36 @@
+.footer-content  ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-content > ul,.footer-logo {
+    width: 33%;
+}
+
+.social-icons a{
+    font-size: 1.2em;
+    margin: 0px 10px;
+    color: black;
+}
+
+.nav-links a{
+    font-size: 1em;
+    margin: 0px 10px;
+    color: black;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-content{
+        display: block;
+    }
+    .footer-content > ul,.footer-logo {
+        width: 100%;
+        margin: 10px;
+    }
+}

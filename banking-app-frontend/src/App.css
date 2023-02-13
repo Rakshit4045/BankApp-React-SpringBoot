@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0);
+}
+
+form{
+  background: white;
+  padding: 2rem;
+  box-shadow: 0px 4px 8px 0px;
+}
+
+.form-control{
+  border: 2px solid #e7e374;
+}
+
+.errorImg{
+  width: 100vw;
+  height: 100vh;
+}
+
+.errorBtn{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}

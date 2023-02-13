@@ -1,0 +1,38 @@
+.typewriter{
+    font-size: 50px;
+    text-shadow: 2px 2px #0000006b;
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+.carousel{
+    width: 50%;
+    border-radius: 50%;
+}
+.carousel-inner{
+    box-shadow: 0px 4px 8px 0px;
+    border-radius: 5px;
+}
+.slide-img{
+    height: 350px;
+    /* width: 500px; */
+}
+@media screen and (max-width: 720px) {
+    .typewriter{
+        font-size: 30px;
+    }
+    .home-content{
+        display: block;
+        text-align: center;
+    }
+    .carousel{
+        width: auto;
+    }
+    .carousel-inner{
+        height: 250px;
+    }
+}
